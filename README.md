@@ -2,7 +2,7 @@
 * Our aim is to create best optmised scala code to some problems
 
 # Who can participate
-* Any nerd with a laptop and
+* Any nerd with  laptop and passion
 
 # How to paticipate
 * fork the repo
