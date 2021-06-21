@@ -19,7 +19,7 @@ object InterQuartile {
   * Function to find the median
   * */
   def median[T](arr: List[T], lower_value: Int, upper_value: Int): Int = {
-    (upper_value - lower_value + 1) / 2
+    ((upper_value - lower_value + 1) / 2)-1
   }
 
   /*
@@ -29,7 +29,7 @@ object InterQuartile {
   def IQR(arr:List[Int],arr_length:Int):Int={
     val mid_index = median(arr, 0, arr_length)
     val q1=arr(median(arr, 0, mid_index))
-    val q3=(arr(mid_index + median(arr, mid_index + 1, arr_length)))
+    val q3=(arr(mid_index + median(arr, mid_index, arr_length)))
     (q3-q1)
 
   }
