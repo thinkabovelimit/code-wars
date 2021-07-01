@@ -28,7 +28,7 @@ object quartile {
   //var b=outlier_list(1)
   //um_list.foreach(num=>num match{
   //case a to b contains num: println(num)})}scscal
-  //[q1-1.5*IQR,q3-
+  //[q1-1.5*IQR,q3-francisxavier425
 
 
 
